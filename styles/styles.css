@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.logo img {
+    height: 60px;
+}
+.nav {
+    display: flex;
+    gap: 70px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagen-introduccion {
+    position: relative;
+    color: white;
+}
+
+.imagen-introduccion img {
+    width: 100%;
+    filter: brightness(30%);
+}
+
+.texto-imagen {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    font-size: 3.5rem;
+    color: white;
+}
+.community-bulletin {
+    text-align: start;
+    padding: 40px 20px;
+    background-color: white;
+}
+.community-bulletin h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.community-bulletin p {
+    font-size:small;
+}
+.tarjetas {
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    background-color: #00497E;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
