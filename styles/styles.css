@@ -1,3 +1,215 @@
+#container-happening{
+    display: grid;
+    grid-template-columns: 50% 2fr;
+    margin-bottom: 10rem;
+    
+}
+
+#happening-at-soa {
+    text-align: start;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+#happening-at-soa h2{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#column-2 {
+    margin-left: 20px;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  display: flex;
+  padding: 30px;
+  height: 1rem;
+  text-align: left;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: -2px 3px 2px rgb(108, 113, 113);
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 20px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+  box-shadow: -2px 3px 2px rgb(108, 113, 113);
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  height: 15rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: -2px 3px 2px rgb(108, 113, 113);
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 15px;
+  border-radius: 80px;
+  background: #00497E;
+  color: white !important
+}
+
+#column-1{
+    align-content: center;
+}
+
+#container-see {
+    display: grid;
+    height: 8rem;
+    color: white;
+    align-content: center;
+    place-content: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #00497E;
+}
+
+#container-spring {
+    display: grid;
+    height: 8rem;
+    color: white;
+    align-content: center;
+    place-content: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #00497E;
+}
+
+#container-about-us {
+    display: grid;
+    height: 30rem;
+    color: white;
+    align-content: center;
+    grid-template-columns: 57% 2fr;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #00497E;
+}
+
+.tarjetas2 {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    background-color: #00497E;
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#container-about-mel {
+    display: grid;
+    color: white;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 57% 2fr;
+    gap: 20px;
+}
+
+#image-hombre { /* Ajusta el tamaño de la imagen según necesites */
+    height: auto;
+    margin-bottom: -300px;
+}
+
+#about-mel {
+    padding: 50px;
+    text-align: left;
+    margin-left: 850px;
+    margin-right: -600px;
+}
+
+#about-mel p{
+    font-size: 1.5rem;
+}
+
+#about-mel h3{
+    font-size: 2.0rem;
+}
+
+#about-us {
+    padding: 20px;
+}
+
+#about-us p{
+    font-size: 1.5rem;
+}
+
+#about-us h3{
+    font-size: 2.0rem;
+
+}
+
+#image-about-us {
+    height: 35rem;
+    position: absolute;
+    margin-right: 15px;
+    margin-top: -32px;
+    right: 0;
+}
+
+#image-hombre {
+    height: 35rem;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -220px;
+    left: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -68,37 +280,6 @@ header {
     border-radius: 10px;
     width: 300px;
     text-align: left;
-}
-
-.community-bulletin img {
-    position: absolute;
-    margin-top: 30px;
-    right: 50%;
-}
-
-.seccion-hombre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
-    background-color: white;
-}
-.seccion-juntos {
-    display: flex;
-    max-width: 100%;
-    background-color: #00497E;
-    border-radius: 10px;
-}
-.imagen-hombre img {
-    width: 250px;
-    background-color: #00497E;
-    height: 300px; 
-    background-size:contain;
-}
-.texto-hombre {
-    background-color: #00497E;
-    color: white;
-    padding: 20px;
 }
 
 footer{
